@@ -29,7 +29,7 @@ body {
 
 .nav__item {
   padding: 10px 10px;
-  width:90%;
+  width: 90%;
   border-style: none;
   cursor: pointer;
   height: 40px;
@@ -37,17 +37,17 @@ body {
 }
 
 .nav__item:hover {
-  background-color:yellow;
+  background-color: yellow;
 }
 
 .main {
   margin-left: 25%;
 }
 
-.main__item{
+.main__item {
   padding-top: 20px;
   font-size: 24px;
-  background-color:yellow;
+  background-color: yellow;
 }
 
 footer {
@@ -69,16 +69,19 @@ footer {
   .main {
     margin-left: 0%;
   }
+
   .main__item {
-      display: block;
-      max-width: 1000px;
-      width:100%;
+    display: block;
+    max-width: 1000px;
+    width: 100%;
   }
+
   .nav {
-      position: relative;
-      width: 100%;
-      text-align: center;
+    position: relative;
+    width: 100%;
+    text-align: center;
   }
+
   .hidden {
     display: none;
   }
